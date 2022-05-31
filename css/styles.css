@@ -76,6 +76,20 @@ button {
     border-top: 0;
 }
 
+.last-example-container {
+    /*padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px; */
+    padding: 20px 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-top: 0;
+}
+
+
 .header-container {
     width: 1170px;
     margin-left: auto;
@@ -157,8 +171,8 @@ button {
     line-height: 31px;
     letter-spacing: 0.03em;
     color: var(--accent-text-color);
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 25px;
     display: block;
     margin-right: 93px;
 }
@@ -224,8 +238,8 @@ button {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    width: 1200px;
-    margin-left: auto;
+    /*max-width: 1600px;
+    /*margin-left: auto;
     margin-right: auto; 
     /*outline: 1px solid tomato;*/
     background-color: #2F303A;
@@ -282,6 +296,11 @@ button {
 .qualities {
     padding-top: 94px;
     padding-bottom: 0;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .qualities-team {
@@ -503,7 +522,9 @@ button {
 
 /*----------------------------------FOOTER----------------------*/
 
-
+.footer-item {
+    margin-top: 9px;
+}
 
 .footer-item :hover {
     color: var(--accent-text-color);
@@ -528,6 +549,11 @@ button {
     letter-spacing: 0.03em;
     color: var(--accent-text-color);
 }
+
+.footer-list {
+    margin-top: 20px;
+}
+
 
 .secondary-footer-link {
     font-family: 'Raleway';
